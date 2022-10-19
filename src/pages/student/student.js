@@ -216,7 +216,7 @@ export default function Student() {
                       className="mt-4 mb-1"
                       style={{ fontSize: ".77rem" }}
                     >
-                      Science
+                      Science Advanced
                     </MDBCardText>
                     <MDBProgress className="rounded">
                       <MDBProgressBar width={66} valuemin={0} valuemax={100} />
