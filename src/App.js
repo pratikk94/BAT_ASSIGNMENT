@@ -2,7 +2,7 @@ import "./App.css";
 import Student from "./pages/student/student.js";
 import React from "react";
 import { MDBNavbar, MDBContainer, MDBNavbarBrand } from "mdb-react-ui-kit";
-
+import GaurdianPage from "./components/guardian/Gaurdian.js";
 function App() {
   return (
     <div className="App">
@@ -12,6 +12,8 @@ function App() {
         </MDBContainer>
       </MDBNavbar>
       <Student />
+      {/* <GaurdianPage /> */}
+      {/* <Student /> */}
     </div>
   );
 }
